@@ -49,7 +49,27 @@ nodemon server.js (or) node server.js
 * public/: Contains CSS files and other static assets.
 * views/: Contains EJS templates for the front-end.
 
+## Screenshots
+### Home Page
+
+![Aurora Home page.](/readme-image/Home-page.png "This is a home-page image.")
+
+### Post Creation
+![Post creation page.](/readme-image/post-creation-page.png "This is a post creation page image.")
+
+### View Blog 
+![Blog view.](/readme-image/view-blog.png "This is a viewing your blog image.")
+
+### Edit Blog
+![Blog Edit.](/readme-image/Editing-blog.png "This is a Editing your blog post image.")
+
+### Deleting Blog
+![Blog Delete.](/readme-image/Deleting-blog.png "This is a Deleting your blog image.")
+
+### After-Delete
+![Blog view.](/readme-image/After-Delete.png "After delete your blog image.")
 
 
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
