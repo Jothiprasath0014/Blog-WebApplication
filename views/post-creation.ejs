@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+
+<h1 class="title">
+    Welcome to Aurora Blog!❤️
+</h1>
+<div class="form-container">
+    <p class="form-text">
+        Edit Your Blog
+    </p>
+
+    <p class="form-text">
+        Type below to create your Blog
+    </p>
+    <form action="/submit" method="post">
+        <label for="b-title">Blog Title</label>
+        <input type="text" id="title" name="blogtitle" placeholder="Enter your title here..." required />
+
+        <label for="b-description">Blog Description</label>
+        <textarea name="blogdes" id="des" placeholder="Type your blog..." rows="8" required></textarea>
+        <input type="submit" value="Publish" />
+    </form>
+</div>
+
+<%- include("partials/footer") %>

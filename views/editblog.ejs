@@ -1,0 +1,15 @@
+<!--Blog Editing section-->
+
+<%- include("partials/header") %>
+
+<h1>Edit Blog</h1>
+<form action="/updateBlog/<%= blog.id %>" method="post">
+    <label for="b-title">Blog Title</label>
+    <input type="text" id="title" name="blogtitle" value="<%= blog.title %>" required />
+
+    <label for="b-description">Blog Description</label>
+    <textarea name="blogdes" id="des" rows="8" required><%= blog.description %></textarea>
+    <input type="submit" value="Update" />
+</form>
+
+<%- include("partials/footer") %>

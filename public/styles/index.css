@@ -1,0 +1,175 @@
+
+body {
+  background: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  animation: gradient-animation 10s ease infinite;
+}
+
+.logo {
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: 0.5em;
+  left: 2em;
+}
+
+.name {
+  top: 1em;
+  position: absolute;
+  left: calc(1em + 80px); /* Adjusted to avoid overlap with logo */
+  font-size: 1.2rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.container {
+  display: inline-block;
+  margin: auto;
+  padding: 1em;
+}
+
+.typetext {
+  overflow: hidden;
+  font-size: 2.6rem;
+  font-weight: 500;
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end) infinite;
+}
+
+.landing-container {
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.image_block {
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.image_block a img {
+  position: absolute;
+  bottom: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 60px;
+    height: 40px;
+    left: 0.5em;
+  }
+
+  .name {
+    top: 1em;
+    left: calc(0.5em + 60px);
+    font-size: 1rem;
+  }
+
+  .typetext {
+    font-size: 1.5rem;
+  }
+
+  .image_block {
+    width: 70%;
+  }
+
+  .container {
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 50px;
+    height: 30px;
+    left: 0.5em;
+  }
+
+  .name {
+    top: 1em;
+    left: calc(0.5em + 50px);
+    font-size: 0.9rem;
+  }
+
+  .typetext {
+    font-size: 1.2rem;
+  }
+
+  .image_block {
+    width: 90%;
+  }
+}
