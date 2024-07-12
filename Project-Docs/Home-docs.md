@@ -84,19 +84,19 @@ aria-label = next
 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 ```
 
-Sport
+Sport <br />
 28 Articles
 
-Anime
+Anime <br />
 110 Articles
 
-Design
+Design <br />
 63 Articles
 
-Movie
+Movie <br />
 125 Articles
 
-Lifestyle
+Lifestyle <br />
 78 Articles
 
 
